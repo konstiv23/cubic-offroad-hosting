@@ -7,23 +7,22 @@
             content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, interactive-widget=resizes-content"
         />
         <title>Cubic Offroad</title>
-        <link rel="icon" href="/cubic-offroad-hosting/assets/favicon-DTv-dc7C.ico" type="image/x-icon" />
-      <script type="module" crossorigin src="/cubic-offroad-hosting/assets/index-BGq3qCSh.js"></script>
-      <link rel="stylesheet" crossorigin href="/cubic-offroad-hosting/assets/index-DIRy9dae.css">
+        <link rel="icon" href="./assets/favicon-DTv-dc7C.ico" type="image/x-icon" />
+      <script type="module" crossorigin src="./assets/index-BhFTgFfN.js"></script>
+      <link rel="stylesheet" crossorigin href="./assets/index-CJiYQn5i.css">
     </head>
 
     <body>
         <div id="debug-info"></div>
 
         <button id="fullscreen-button">Full Screen</button>
+        <button id="restart-button">Restart</button>
 
         <div id="spinner-wrapper">
             <div id="spinner"></div>
         </div>
 
-        <div id="wrong-way">
-            WRONG WAY
-        </div>
+        <div id="wrong-way">WRONG WAY</div>
 
         <section id="touch-controls">
             <button id="left">⟨</button>
@@ -37,12 +36,19 @@
 
         <section id="level-select-screen">
             <div id="head">
-                <div id="title">
-                    CUBIC&nbsp;OFFROAD
-                </div>
+                <div id="title">CUBIC&nbsp;OFFROAD</div>
                 <div id="finished-stats">
-                    <div>Total&nbsp;Finished:&nbsp;<span id="total-finished">0</span></div>
-                    <div>Under&nbsp;1:45.00:&nbsp;<span id="total-under-strive-time">0</span></div>
+                    <div>
+                        Total&nbsp;Finished:&nbsp;<span id="total-finished"
+                            >0</span
+                        >
+                    </div>
+                    <div>
+                        Under&nbsp;1:45.00:&nbsp;<span
+                            id="total-under-strive-time"
+                            >0</span
+                        >
+                    </div>
                 </div>
             </div>
 
@@ -74,14 +80,16 @@
                         <li>Bomb sprite by Znevs</li>
                     </ul>
                 </details>
-                <div id="version">v0.1.0</div>
+                <div id="version">v0.1.1</div>
             </div>
         </section>
 
         <div id="game-over-modal">
             <div id="game-over-title">GAME&nbsp;OVER</div>
             <button id="retry-button">RETRY</button>
-            <button id="game-over-level-select-button">LEVEL&nbsp;SELECT</button>
+            <button id="game-over-level-select-button">
+                LEVEL&nbsp;SELECT
+            </button>
         </div>
 
         <div id="finished-modal">
