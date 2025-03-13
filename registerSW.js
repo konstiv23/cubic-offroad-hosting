@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/cubic-offroad-hosting/sw.js', { scope: '/cubic-offroad-hosting/' })})}
